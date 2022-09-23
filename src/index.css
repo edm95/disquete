@@ -1,11 +1,10 @@
-
-
 html, body{
     height: 100%;
     width: 100%;
 }
 
 body{
+    --color-disquete: rgb(32, 32, 32);
     margin: 0;
 }
 
@@ -23,7 +22,7 @@ body{
     width: 400px;
     height: 400px;
     flex-direction: column;
-    background-color: rgb(32, 32, 32);
+    background-color: var(--color-disquete);
     margin: auto;
     gap: 60px;
     align-items: center;
@@ -38,9 +37,7 @@ body{
     width: 56%;
     height: 36%;
     background-color: rgb(20, 20, 20);
-    /* border: 2px solid red; */
     box-shadow: inset 2px -2px 5px rgb(54, 54, 54); 
-    
     justify-content: right;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -56,7 +53,7 @@ body{
     padding-right: 20px;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
-    background-image: linear-gradient(to right, rgb(61, 61, 61), rgb(184, 184, 184),rgb(46, 46, 46) );
+    background-image: linear-gradient(to right, rgb(61, 61, 61), rgb(221, 221, 221) 30%, rgb(46, 46, 46) );
 }
 
 .agujero{
@@ -72,7 +69,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    background-color: rgb(167, 167, 167);
+    background-color: rgb(207, 207, 207);
     width: 60%;
     height: 40%;
     padding-top: var(--pad);
@@ -84,5 +81,5 @@ body{
     width: 80%;
     height: 2px;
     background-color: black;
-
 }
+
